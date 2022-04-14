@@ -65,7 +65,7 @@ function Reset() {
   
   // Setup Emojis
   emojiA = {
-    x: width * 0.25,
+    x: width * 0.33,
     
     rank: round(random(0, Object.keys(emojiData).length - 1)),
     scl: 0,
@@ -73,7 +73,7 @@ function Reset() {
   };
   
   emojiB = {
-    x: width * 0.75,
+    x: width - width * 0.33,
     
     rank: round(random(0, Object.keys(emojiData).length - 1)),
     scl: 0,
