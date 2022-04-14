@@ -18,7 +18,7 @@ function preload() {
 
 // Setup
 function setup() {
-  createCanvas(700, 600);
+  createCanvas(windowWidth, windowHeight);
   
   // Get local saved highscore
   highscore = 0;
